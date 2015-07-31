@@ -1,6 +1,6 @@
 /* MAIN STYLE */
 
-/* set the display: flex rule for the .main-header and .nav */
+/* set the display: flex rule for the .main-header and .  nav */
 .main-header,
 .nav {
   display: flex;
@@ -11,9 +11,9 @@
   padding-top: 2em;
 }
 
-/*.site-logo {
+.site-logo {
   width: 110px;
-}*/
+}
 
 .nav {
   margin-top: 1.5em;
