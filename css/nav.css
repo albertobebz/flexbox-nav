@@ -20,13 +20,17 @@
 }
 
 .site-logo {
-  width: 110px;
   /* flex property that center the logo */
   align-self: center;
+  margin-bottom: 1.4em;
 }
 
-.nav {
-  margin-top: 1.5em;
+img {
+  width: 200px;
+}
+
+.main-content h1 {
+  text-align: center;
 }
 
 .nav a {
@@ -50,11 +54,8 @@
 
 /* for screen >= 769px */
 @media (min-width: 769px) {
-  .main-header {
-    height: 200px;
-  }
   .site-logo {
-    width: 140px;
+    margin-bottom: 0.4em;
   }
   .nav {
     margin-top: 3em;
@@ -76,6 +77,10 @@
     /* place the logo on the left and all the rest to the right */
     margin-right: auto;
   }
+  img {
+    width: 160px;
+    margin-left: -15px;
+  }
   .nav {
     margin-top: 0;
     align-self: center;
@@ -83,6 +88,9 @@
   .nav li {
     margin-left: .65em;
     margin-right: .65em;
+  }
+  .main-content h1 {
+    text-align: initial;
   }
 }
 
